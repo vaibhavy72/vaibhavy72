@@ -101,7 +101,7 @@ import React, { useState } from 'react';
                   ))}
                   <div className="border-t pt-6 space-y-4">
                      <Button asChild variant="outline" className="w-full border-primary text-primary hover:bg-primary/10">
-                        <a href="/resume.pdf" download="Vaibhav_Anand_Yadav_Resume.pdf">
+                        <a href="/resume.pdf" download="Vaibhav_Yadav_Resume.pdf">
                           Download Resume <FileText className="ml-2 h-4 w-4" />
                         </a>
                       </Button>

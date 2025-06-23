@@ -39,7 +39,7 @@ import React from 'react';
                 <CardHeader className="bg-gradient-to-br from-primary/10 to-accent/10">
                   <div className="flex items-center space-x-3">
                     <User className="h-10 w-10 text-primary" />
-                    <CardTitle>Vaibhav Anand Yadav</CardTitle>
+                    <CardTitle>Vaibhav Yadav</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent className="pt-6">

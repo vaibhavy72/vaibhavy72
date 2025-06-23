@@ -20,16 +20,16 @@ import React from 'react';
                 <Phone size={24} />
               </a>
               {/* Placeholder for resume download */}
-              <a href="/resume.pdf" download="Vaibhav_Anand_Yadav_Resume.pdf" aria-label="Download Resume" className="hover:text-primary transition-colors">
+              <a href="/resume.pdf" download="Vaibhav_Yadav_Resume.pdf" aria-label="Download Resume" className="hover:text-primary transition-colors">
                 <FileText size={24} />
               </a>
             </div>
             <p className="text-sm">
-              &copy; {currentYear} Vaibhav Anand Yadav. All rights reserved.
+              &copy; {currentYear} Vaibhav Yadav. All rights reserved.
             </p>
-            <p className="text-xs mt-2">
+            {/* <p className="text-xs mt-2">
               Built with React, TailwindCSS, and Framer Motion. Hosted on Hostinger.
-            </p>
+            </p> */}
           </div>
         </footer>
       );
