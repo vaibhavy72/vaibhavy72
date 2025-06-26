@@ -152,21 +152,6 @@ const HomePage = () => {
               </a>
             </Button>
           </motion.div>
-          <motion.div
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="absolute bottom-10 left-1/2 -translate-x-1/2"
-          >
-            <p className="text-sm text-muted-foreground mb-4">Scroll to explore</p>
-            <motion.div
-              animate={{ y: [0, 10, 0] }}
-              transition={{ repeat: Infinity, duration: 1.5 }}
-              className="w-6 h-10 border-2 border-primary rounded-full flex justify-center pt-2"
-            >
-              <motion.div className="w-1 h-1 bg-primary rounded-full" />
-            </motion.div>
-          </motion.div>
         </div>
       </section>
   
